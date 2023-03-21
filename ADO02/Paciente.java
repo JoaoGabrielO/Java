@@ -1,13 +1,13 @@
 package EstruturaDeDados.ADO02;
 
+
 public class Paciente {
-    private String nome, idade, sexo;
-    private int indentificacao;
+    private String nome, idade, sexo, indentificacao;
 
     public Paciente() {
     }
 
-    public Paciente(String nome, String idade, String sexo, int indentificacao) {
+    public Paciente(String nome, String idade, String sexo, String indentificacao) {
         this.nome = nome;
         this.idade = idade;
         this.sexo = sexo;
@@ -38,11 +38,11 @@ public class Paciente {
         this.sexo = sexo;
     }
 
-    public int getIndentificacao() {
+    public String getIndentificacao() {
         return indentificacao;
     }
 
-    public void setIndentificacao(int indentificacao) {
+    public void setIndentificacao(String indentificacao) {
         this.indentificacao = indentificacao;
     }
 }
